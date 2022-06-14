@@ -28,7 +28,7 @@ const About = () => {
                     `
                     }
                 </p>
-                <p className='text-xl my-5 hover:text-primary italic font-medium'>Want to discuss? <Link className='hover:link' to='/contact' >Let's go...</Link> </p>
+                <p className='text-xl my-5 text-primary italic font-medium font-sans'>Want to discuss? <Link className='link' to='/contact' >Let's go...</Link> </p>
             </div>
         </div >
     );
