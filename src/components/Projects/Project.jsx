@@ -11,9 +11,9 @@ const Project = ({ project }) => {
             </figure>
             <div class="card-body p-5 items-center text-center">
                 <h2 class="card-title text-primary text-3xl">{name}</h2>
-                <p className='hover:text-primary text-lg'>{description}</p>
+                <p className='hover:text-primary text-lg font-sans'>{description}</p>
                 <div class="card-actions">
-                    <button onClick={() => navigate(`/projects/${project.id}`)} class="btn btn-outline btn-md btn-primary">Details</button>
+                    <button onClick={() => navigate(`/projects/${project.id}`)} class="btn btn-outline btn-md btn-primary font-sans">Details</button>
                 </div>
             </div>
         </div>
