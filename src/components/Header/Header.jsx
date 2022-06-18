@@ -23,7 +23,7 @@ const Header = () => {
             <li>{resume}</li>
           </ul>
         </div>
-        <Link to='/' class="btn btn-ghost normal-case  text-2xl">
+        <Link to='/' class="btn btn-ghost normal-case pl-0  text-2xl">
           <span className='text-primary'>{'< '}</span> {'Mahfuz'} <span className='text-primary'>{' />'}</span> </Link>
       </div>
       <div class="navbar-center hidden lg:flex">
