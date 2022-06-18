@@ -1,19 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 const Project = ({ project }) => {
     const { name, img, description } = project;
+    const [show, setShow] = useState(false);
     const navigate = useNavigate();
     return (
-        <div class="card w-full bg-white border border-secondary shadow-lg rounded-lg relative">
-            <figure class="px-5 pt-5">
-                <img src={img} alt="Shoes" class="rounded-lg border border-secondary" />
+        <div className="card w-full h-64 bg-secondary bg-opacity-70 border border-secondary shadow-lg rounded-lg relative">
+            <figure className="p-2 h-full">
+                <img src={img} alt="Shoes" className="rounded-lg border border-secondary hover:scale-105" />
             </figure>
-            <div class="card-body p-5 items-center text-center absolute opacity-0 hover:opacity-100 ">
-                <h2 class="card-title text-primary text-3xl">{name}</h2>
-                <p className='hover:text-primary text-lg font-sans'>{description}</p>
-                <div class="card-actions">
-                    <button onClick={() => navigate(`/projects/${project.id}`)} class="btn btn-outline btn-md btn-primary font-sans">Details</button>
+            <div className={`h-full w-full absolute bg-primary opacity-0 ${show && 'opacity-80'} `} ></div>
+            <div onMouseEnter={() => setShow(true)} onMouseLeave={() => setShow(false)} className="card-body p-5 items-center text-center absolute opacity-0 hover:opacity-100 ">
+                <h2 className="card-title text-white text-xl uppercase">{name}</h2>
+                <p className='text-white text-lg font-sans max-h-[112px] overflow-hidden text-ellipsis'>{description}</p>
+                <div className="card-actions">
+                    <button onClick={() => navigate(`/projects/${project.id}`)} className="btn btn-outline btn-md text-white font-sans">Details</button>
                 </div>
             </div>
         </div>
