@@ -46,7 +46,7 @@ const ContactMe = () => {
                 <form ref={form} onSubmit={handleSubmit} className='mx-auto grid grid-cols-1 gap-3 font-sans' >
                     <input required type="text" name="name" id="name" placeholder='Your Name' className='input input-primary bg-white text-xl py-3' />
                     <input required type="email" name="email" id="email" placeholder='Your Email' className='input input-primary bg-white text-xl py-3' />
-                    <textarea required type="text" name="message" id="message" placeholder='Your Message' className='input input-primary bg-white text-xl py-3' />
+                    <textarea required name="message" id="message" placeholder='Your Message' className='textarea textarea-primary bg-white text-xl py-3 h-32' />
                     <button type="submit" className="btn btn-primary text-white w-full">
                         SEND
                     </button>

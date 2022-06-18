@@ -8,7 +8,7 @@ const Projects = () => {
     if (!projects | !projects?.length) return;
 
     return (
-        <div className='px-5 lg:px-20 py-20 '>
+        <div className='px-5 lg:px-20 py-24 '>
             <h3 className='lg:text-4xl text-2xl hover:text-primary font-bold text-center uppercase mb-20'>Projects</h3>
             {
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-3">

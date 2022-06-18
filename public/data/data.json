@@ -35,16 +35,17 @@
 
 },
 {
-    "name": "Todo Manager",
+    "name": "What to do",
     "img": "https://i.ibb.co/VwBtWZL/WHAT-TO-DO.png",
     "id": "project2",
     "liveLink": "https://react-to-do-app-41e4a.web.app/",
     "githubClient": "https://github.com/mahfuzswaron/react-to-do-app",
-    "description": "A Task mangement full-stack application. ",
+    "description": "This is a task management application. You can list your tasks here. Once finished the task simply strikethrough or remove the task from the list. Add new task if necessary. Your information are saved in database. Whenever you visit the app, you can see your added tasks.",
     "technologies":["React", "React-Router","Firebase", "Tailwind", "DaisyUI" , "Heroku" ],
     "features": [
-        "See all Tasks",
-        "Manage Tasks (Add, Remove, Strikethrow)"
+        "Google and Email/password-based authentication system",
+        "Protected routes for logged in user only",
+        "CRUD operations"
     ]
 }
 ]
