@@ -8,10 +8,6 @@ const ContactMe = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        /* const email = e.target.email.value;
-        const name = e.target.name.value;
-        const message = e.target.message.value;
-        const form = { name, email, message }; */
         emailjs.sendForm('service_77tsa48', 'template_kz0l0ds', form.current, 'dGRT_G2oWNSVKXjej')
             .then((result) => {
                 if (result.text.toLowerCase() === 'ok') {

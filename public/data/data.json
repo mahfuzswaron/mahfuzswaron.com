@@ -5,15 +5,32 @@
     "id": "project1",
     "liveLink": "https://laptop-stock-new.web.app/",
     "githubClient": "https://github.com/mahfuzswaron/laptop-stock-react",
-    "description": "A warehouse mangement full-stack application. ",
+    "description": "A warehouse mangement full-stack application. Its purpose is managing inventories and their quantities. You can add and remove an inventory. ",
     "technologies": ["React", "React-Router", "Tailwind", "DaisyUI" ,"Firebase", "Heroku", "MongoDB"],
     "features": [
-        "See all inventories together",
-        "Manage Inventories (Add, Remove, Sale)",
-        "Total Price Calculator",
-        "Analytics of Sale",
-        "Blogs including some core concepts",
-        "Protected routes for logged in user only"
+        "Google and Email/password-based authentication system",
+        "Protected routes for logged in user only",
+        "CRUD operations",
+        "Calculate total price",
+        "Analyse sales"
+        
+    ]
+
+},
+{
+    "name": "CAR PARTS",
+    "img": "https://i.ibb.co/VtQq0Dk/CAR-PARTS.png",
+    "id": "car_parts",
+    "liveLink": "https://car-parts-6b723.web.app/",
+    "githubClient": "https://github.com/mahfuzswaron/car-parts",
+    "description": "This is a manufacturer's company website. its purpose is to display products and let the users place orders, manage their orders, and add reviews. users can also update their profiles. An admin can ship the orders, and manage products. They can also make a user admin",
+    "technologies": [
+        "React", "React-Router","Firebase", "Tailwind", "DaisyUI" , "Heroku" 
+    ],
+    "features": [
+        "Google and Email/password-based authentication system",
+        "Protected routes for admin and user",
+        "CRUD operations"
     ]
 
 },
@@ -24,23 +41,10 @@
     "liveLink": "https://react-to-do-app-41e4a.web.app/",
     "githubClient": "https://github.com/mahfuzswaron/react-to-do-app",
     "description": "A Task mangement full-stack application. ",
-    "technologies":["React", "React-Router", "Tailwind", "DaisyUI" ,"Firebase", "Heroku", "MongoDB"],
+    "technologies":["React", "React-Router","Firebase", "Tailwind", "DaisyUI" , "Heroku" ],
     "features": [
         "See all Tasks",
         "Manage Tasks (Add, Remove, Strikethrow)"
-    ]
-},
-{
-    "name": "JavaScript Watch",
-    "img": "https://i.ibb.co/sKsPzqs/digital-watch.png",
-    "id": "project3",
-    "liveLink": "https://digital-watch-ms.netlify.app/",
-    "githubClient": "https://github.com/mahfuzswaron/digital-watch",
-    "description": "A simple JavaScript Watch ",
-    "technologies": ["HTML", "CSS", "JavaScript"],
-    "features": [
-        "See time",
-        "Exactly your local time"
     ]
 }
 ]
