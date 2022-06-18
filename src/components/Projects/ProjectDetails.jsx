@@ -49,12 +49,12 @@ const ProjectDetails = () => {
                 <div className="flex space-x-4 mt-3">
                     <button >
                         <a className="btn btn-primary btn-outline " target={'_blank'} rel="noreferrer" href={project.githubClient}>
-                            GitHub Repository
+                            GitHub Repo
                         </a>
                     </button>
                     <button >
                         <a className="btn btn-primary text-white  " target={'_blank'} rel="noreferrer" href={liveLink}>
-                            Visit Site
+                            Visit
                         </a>
                     </button>
                 </div>
