@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 const Project = ({ project }) => {
-    const { name, img, description } = project;
+    const { name, img, description, liveLink } = project;
     const [show, setShow] = useState(false);
     const navigate = useNavigate();
     return (
@@ -16,6 +16,11 @@ const Project = ({ project }) => {
                 <p className='text-white text-lg font-sans max-h-[112px] overflow-hidden text-ellipsis'>{description}</p>
                 <div className="card-actions">
                     <button onClick={() => navigate(`/projects/${project.id}`)} className="btn btn-outline btn-md text-white font-sans">Details</button>
+                    <button >
+                        <a className="btn btn-secondary text-primary  " target={'_blank'} rel="noreferrer" href={liveLink}>
+                            Visit Site
+                        </a>
+                    </button>
                 </div>
             </div>
         </div>

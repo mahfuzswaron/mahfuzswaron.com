@@ -14,31 +14,31 @@ const ProjectDetails = () => {
     const { name, img, technologies, features, liveLink, description } = project;
 
     return (
-        <div className='flex px-5'>
-            <figure className='w-1/2 p-5 flex items-center'>
-                <img className='p-10 shadow-lg block mx-auto ' src={img} alt={name} />
+        <div className='flex flex-col items-center px-5'>
+            <figure className='w-full p-5 flex items-center '>
+                <img className='shadow lg:shadow-lg block mx-auto border' src={img} alt={name} />
             </figure>
 
-            <div className='p-10 grid grid-cols-1 gap-3'>
-                <h1 className='text-4xl text-primary font-bold'>{name}</h1>
+            <div className='p-5 w-full lg:p-20 grid grid-cols-1 gap-3 text-center lg:text-left'>
+                <h1 className='text-3xl lg:text-4xl text-primary font-bold'>{name}</h1>
 
                 <div>
-                    <p className="text-xl font-sans">
+                    <p className="lg:text-xl text-lg break-words text-left font-sans">
                         {description}
                     </p>
                 </div>
-                <div>
-                    <p className='text-2xl hover:text-primary font-semibold mb-3'>Main Features:</p>
-                    <ul className='space-y-2'>
+                <div className='mt-3'>
+                    <p className='text-xl lg:text-3xl hover:text-primary font-semibold mb-3'>Main Features:</p>
+                    <ul className='font-sans space-y-2 text-left'>
                         {
                             features.map((t, i) => <li className='hover:text-primary' key={i}> # {t}</li>)
                         }
                     </ul>
                 </div>
 
-                <div>
-                    <p className='text-2xl hover:text-primary font-semibold mb-3'>Technologies used:</p>
-                    <ul className='flex flex-wrap space-x-3'>
+                <div className='mt-3'>
+                    <p className='text-xl lg:text-3xl hover:text-primary font-semibold mb-3'>Technologies used:</p>
+                    <ul className='font-sans flex flex-wrap space-x-3'>
                         {
                             technologies.map((t, i) => <li className='hover:text-primary'
                                 key={i}> {t}</li>)
@@ -46,14 +46,14 @@ const ProjectDetails = () => {
                     </ul>
                 </div>
 
-                <div className="flex space-x-4">
+                <div className="flex space-x-4 mt-3">
                     <button >
-                        <a className="btn btn-primary btn-outline " target={'_blank'} href={project.githubClient}>
+                        <a className="btn btn-primary btn-outline " target={'_blank'} rel="noreferrer" href={project.githubClient}>
                             GitHub Repository
                         </a>
                     </button>
                     <button >
-                        <a className="btn btn-primary text-white  " target={'_blank'} href={liveLink}>
+                        <a className="btn btn-primary text-white  " target={'_blank'} rel="noreferrer" href={liveLink}>
                             Visit Site
                         </a>
                     </button>
