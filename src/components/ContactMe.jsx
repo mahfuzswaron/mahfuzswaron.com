@@ -36,10 +36,10 @@ const ContactMe = () => {
     }
     return (
         <div className='mb-10 lg:mt-44 mt-10 lg:px-20 px-5 lg:flex '>
-            <div className='lg:w-1/2 px-5 mb-10 lg:mb-0'>
+            <div className='lg:w-1/2 px-5 mb-10 lg:mb-0 animate__animated animate__fadeInLeft'>
                 <img src="https://i.ibb.co/LQ62C5k/contact.png" alt="contact me" />
             </div>
-            <div className=' lg:w-1/2 px-5'>
+            <div className=' lg:w-1/2 px-5 animate__animated animate__fadeInRight'>
                 <h3 className="text-2xl lg:text-4xl text-center uppercase hover:text-primary font-bold lg:mb-14 mb-8">
                     Contact Me
                 </h3>
