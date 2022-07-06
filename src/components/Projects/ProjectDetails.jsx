@@ -28,7 +28,7 @@ const ProjectDetails = () => {
                     </p>
                 </div>
                 <div className='mt-3'>
-                    <p className='text-xl lg:text-3xl hover:text-primary font-semibold mb-3'>Main Features:</p>
+                    <p className='text-xl lg:text-3xl hover:text-primary font-semibold mb-3'>Main Features</p>
                     <ul className='font-sans space-y-2 text-left'>
                         {
                             features.map((t, i) => <li className='hover:text-primary' key={i}> # {t}</li>)
@@ -37,7 +37,7 @@ const ProjectDetails = () => {
                 </div>
 
                 <div className='mt-3'>
-                    <p className='text-xl lg:text-3xl hover:text-primary font-semibold mb-3'>Technologies used:</p>
+                    <p className='text-xl lg:text-3xl hover:text-primary font-semibold mb-3'>Technologies used</p>
                     <ul className='font-sans flex flex-wrap space-x-3'>
                         {
                             technologies.map((t, i) => <li className='hover:text-primary'

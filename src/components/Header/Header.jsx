@@ -8,7 +8,7 @@ const blogs = <Link to={'/blogs'} >BLOGS</Link>
 const resume = <a download={'resume-mahfuzswaron'} href="../../../resume/resume-mahfuzswaron.pdf">RESUME</a>
 const Header = () => {
   return (
-    <div class="navbar bg-primary lg:px-20 px-5 py-4 text-white animate__animated animate__fadeInLeft">
+    <div class="navbar bg-primary lg:px-20 px-5 py-4 text-white animate__animated animate__fadeInDown">
       <div class="navbar-start">
         <div class="dropdown">
           <label tabindex="0" class="btn btn-ghost lg:hidden">
