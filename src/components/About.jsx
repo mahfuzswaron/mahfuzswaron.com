@@ -4,7 +4,7 @@ const About = () => {
     return (
         <div className='lg:flex lg:mt-20 mt-10 mb-5 px-5'>
             <figure className='lg:w-1/2 px-5 animate__animated animate__fadeInLeft'>
-                <img src="https://i.ibb.co/4tRZCmr/about.png" alt="about me" />
+                <img src="https://i.ibb.co/GCwf5DD/about-png.jpg" alt="about me" />
             </figure>
             <div className='lg:w-1/2 px-5 animate__animated animate__fadeInRight'>
                 <h3 className="hover:text-primary uppercase  text-4xl font-bold text-center">

@@ -1,7 +1,8 @@
 [
 {
     "name": "Laptop Stock",
-    "img": "https://i.ibb.co/gP4X1m0/Laptop-Stock.png",
+    "thumbnail": "/project-thumbnails/laptop-stock.png",
+    "img":"https://i.ibb.co/gP4X1m0/Laptop-Stock.png",
     "id": "project1",
     "liveLink": "https://laptop-stock-new.web.app/",
     "githubClient": "https://github.com/mahfuzswaron/laptop-stock-react",
@@ -19,8 +20,9 @@
 },
 {
     "name": "CAR PARTS",
-    "img": "https://i.ibb.co/VtQq0Dk/CAR-PARTS.png",
-    "id": "car_parts",
+    "thumbnail": "/project-thumbnails/car-parts.png",
+    "img":"https://i.ibb.co/VtQq0Dk/CAR-PARTS.png",
+    "id": "project2",
     "liveLink": "https://car-parts-6b723.web.app/",
     "githubClient": "https://github.com/mahfuzswaron/car-parts",
     "description": "This is a manufacturer's company website. its purpose is to display products and let the users place orders, manage their orders, and add reviews. users can also update their profiles. An admin can ship the orders, and manage products. They can also make a user admin",
@@ -35,17 +37,36 @@
 
 },
 {
-    "name": "What to do",
-    "img": "https://i.ibb.co/VwBtWZL/WHAT-TO-DO.png",
-    "id": "project2",
-    "liveLink": "https://react-to-do-app-41e4a.web.app/",
-    "githubClient": "https://github.com/mahfuzswaron/react-to-do-app",
-    "description": "This is a task management application. You can list your tasks here. Once finished the task simply strikethrough or remove the task from the list. Add new task if necessary. Your information are saved in database. Whenever you visit the app, you can see your added tasks.",
-    "technologies":["React", "React-Router","Firebase", "Tailwind", "DaisyUI" , "Heroku" ],
+    "name": "Shop Arena",
+    "thumbnail": "/project-thumbnails/shops-arena.png",
+    "img":"https://i.ibb.co/h70z4F2/SHOP-LIST.png",
+    "id": "project3",
+    "liveLink": "https://shop-list-redux.netlify.app/",
+    "githubClient": "https://github.com/mahfuzswaron/shop-list",
+    "description": "Shop Arena is a shop list management web application. You can add, edit and delete a shop and filter the shops by category, location, and availability.",
+    "technologies": [
+        "React", "React-Router","Redux", "Tailwind", "React-Bootstrap"
+    ],
     "features": [
-        "Google and Email/password-based authentication system",
-        "Protected routes for logged in user only",
-        "CRUD operations"
+        "CRUD operations",
+        "Filter options",
+        "Cool animation"
+    ]
+
+},
+{
+    "name": "Tasks Manager",
+    "thumbnail": "/project-thumbnails/Tasks-manager.png",
+    "img":"https://i.ibb.co/NpkMV58/Tasks-Manager.png",
+    "id": "project4",
+    "liveLink": "https://tasks-manager-web-app.netlify.app/",
+    "githubClient": "https://github.com/mahfuzswaron/tasks-manager",
+    "description": "This is a task management application. You can list your tasks here and you may edit them also. Once the task is finished simply click on the radio button, it will replaced to completed tasks page. You can see the calendar in the Calendar page.",
+    "technologies":["React", "React-Router", "Tailwind", "DaisyUI", "MongoDB" , "Express.js" ],
+    "features": [
+        "Create, Read and Update Data",
+        "Delete Data (Upcoming)",
+        "See Calendar"
     ]
 }
 ]
